@@ -89,6 +89,7 @@ public class GameView extends View {
         scorepaint.setColor(Color.RED);
     scorepaint.setTextSize(TEXT_SIZE);
         scorepaint.setTextAlign(Paint.Align.LEFT);
+
         healthPaint=new Paint();
         healthPaint.setColor(Color.GREEN);
 

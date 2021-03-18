@@ -6,26 +6,28 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_light"
+        android:fontFamily="@font/superhero"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="Shooting Canon"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textColor="@android:color/holo_red_light"
-            android:fontFamily="@font/superhero"
-            android:textSize="30sp"
-            android:text="Shooting Canon"/>
         <ImageButton
             android:id="@+id/start_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:layout_gravity="center"
-            android:layout_marginTop="24dp"
             android:src="@drawable/play"/>
         <TextView
             android:id="@+id/start_txt"
@@ -36,7 +38,6 @@
             android:textStyle="bold"
             android:text="Start Game"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/superhero"
             android:textColor="@android:color/holo_red_light"/>
 
     </LinearLayout>
